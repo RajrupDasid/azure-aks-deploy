@@ -1,0 +1,13 @@
+name: Azure Kubernetes Service Deploy
+image: mspipes/azure-aks-deploy:0.0.0
+description: Deploy to AKS (Azure Kubernetes Service) using Kubectl.
+repository: https://bitbucket.org/microsoft/azure-aks-deploy
+maintainer: do_not_reply@microsoft.com
+icon: https://bitbucket.org/microsoft/azure-aks-deploy/raw/master/logo.svg
+tags:
+    - azure
+    - AKS
+    - kubernetes
+    - kubectl
+    - deploy
+

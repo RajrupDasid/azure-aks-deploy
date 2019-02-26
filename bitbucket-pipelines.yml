@@ -1,0 +1,34 @@
+image:
+  name: atlassian/default-image:2
+
+test: &test
+  step:
+    image: microsoft/azure-cli
+    name: Test
+    script:
+    - apk update && apk add bats
+    - chmod a+x test/*.bats
+    - bats test/test.bats
+    services:
+    - docker
+
+push: &push
+  step:
+    name: Push and Tag
+    image: python:3.7
+    script:
+    - pip install semversioner==0.*
+    - chmod a+x ci-scripts/*.sh
+    - ./ci-scripts/bump-version.sh
+    - ./ci-scripts/docker-release.sh mspipes/$BITBUCKET_REPO_SLUG
+    - ./ci-scripts/git-push.sh
+    services:
+    - docker
+
+pipelines:
+  default:
+  - <<: *test
+  branches:
+    master:
+    - <<: *test
+    - <<: *push
