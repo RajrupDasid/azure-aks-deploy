@@ -16,7 +16,7 @@ setup() {
   
   
   echo "# creating resource group ${AZURE_RESOURCE_GROUP}" >&3
-  az group create --name ${AZURE_RESOURCE_GROUP} --location australiaeast
+  az group create --name ${AZURE_RESOURCE_GROUP} --location westus2
   
   echo "# creating AKS cluster ${AZURE_AKS_NAME}" >&3  
   az aks create \
