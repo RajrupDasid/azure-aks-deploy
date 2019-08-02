@@ -146,12 +146,24 @@ script:
 
 ## Support
 
-If you’d like help with this pipe, or you have an issue or feature request, [let us know on community][community].
+If you’d like help with this pipe, or you have an issue or feature request, please contact us:
+
+**Option 1** - Azure portal - Goto: azure.portal.com
+- Go to Help+Support (at the left navigation)
+- Click “+New support request”
+- Choose Issue Type “Technical”
+- Choose Services “All Services”
+- Under “Developer Tools” choose “Azure DevOps Services”
+- Problem Type, choose “Pipelines”
+
+**Option 2** - Azure DevOps - Goto: https://azure.microsoft.com/en-us/support/create-ticket/
+- Choose Azure DevOps Support ticket tile
+- Choose the Appropriate “Create an incident” button
+- The screen will be pre populated with “Developer Tools” “Azure DevOps”.
+- Choose Pipelines as the category and follow the wizard.
+
 
 If you’re reporting an issue, please include:
-
-* the version of the pipe
-* relevant logs and error messages
-* steps to reproduce
-
-[community]: https://community.atlassian.com/t5/forums/postpage/choose-node/true/interaction-style/qanda?add-tags=bitbucket-pipelines,pipes,azure
+- the version of the pipe
+- relevant logs and error messages
+- steps to reproduce
