@@ -148,7 +148,7 @@ script:
 
 If you’d like help with this pipe, or you have an issue or feature request, please contact us:
 
-**Option 1** - Azure portal - Goto: azure.portal.com
+**Option 1** - Azure portal - Goto: https://portal.azure.com
 - Go to Help+Support (at the left navigation)
 - Click “+New support request”
 - Choose Issue Type “Technical”
