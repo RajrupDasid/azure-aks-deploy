@@ -149,6 +149,7 @@ script:
 If you’d like help with this pipe, or you have an issue or feature request, please contact us:
 
 **Option 1** - Azure portal - Goto: https://portal.azure.com
+
 - Go to Help+Support (at the left navigation)
 - Click “+New support request”
 - Choose Issue Type “Technical”
@@ -157,6 +158,7 @@ If you’d like help with this pipe, or you have an issue or feature request, pl
 - Problem Type, choose “Pipelines”
 
 **Option 2** - Azure DevOps - Goto: https://azure.microsoft.com/en-us/support/create-ticket/
+
 - Choose Azure DevOps Support ticket tile
 - Choose the Appropriate “Create an incident” button
 - The screen will be pre populated with “Developer Tools” “Azure DevOps”.
@@ -164,6 +166,7 @@ If you’d like help with this pipe, or you have an issue or feature request, pl
 
 
 If you’re reporting an issue, please include:
+
 - the version of the pipe
 - relevant logs and error messages
 - steps to reproduce
