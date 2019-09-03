@@ -8,7 +8,7 @@ Add the following snippet to the script section of your `bitbucket-pipelines.yml
 
 ```yaml
 script:
-  - pipe: microsoft/azure-aks-deploy:1.0.1
+  - pipe: microsoft/azure-aks-deploy:1.0.2
     variables:
       AZURE_APP_ID: $AZURE_APP_ID
       AZURE_PASSWORD: $AZURE_PASSWORD
@@ -116,7 +116,7 @@ Using kubectl command and arguments:
 
 ```yaml
 script:
-  - pipe: microsoft/azure-aks-deploy:1.0.1
+  - pipe: microsoft/azure-aks-deploy:1.0.2
     variables:
       AZURE_APP_ID: $AZURE_APP_ID
       AZURE_PASSWORD: $AZURE_PASSWORD
@@ -132,7 +132,7 @@ Using kubectl command and kubernetes spec file:
 
 ```yaml
 script:
-  - pipe: microsoft/azure-aks-deploy:1.0.1
+  - pipe: microsoft/azure-aks-deploy:1.0.2
     variables:
       AZURE_APP_ID: $AZURE_APP_ID
       AZURE_PASSWORD: $AZURE_PASSWORD
