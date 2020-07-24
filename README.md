@@ -146,27 +146,4 @@ script:
 
 ## Support
 
-If you’d like help with this pipe, or you have an issue or feature request, please contact us:
-
-**Option 1** - Azure portal - Goto: https://portal.azure.com
-
-- Go to Help+Support (at the left navigation)
-- Click “+New support request”
-- Choose Issue Type “Technical”
-- Choose Services “All Services”
-- Under “Developer Tools” choose “Azure DevOps Services”
-- Problem Type, choose “Pipelines”
-
-**Option 2** - Azure DevOps - Goto: https://azure.microsoft.com/en-us/support/create-ticket/
-
-- Choose Azure DevOps Support ticket tile
-- Choose the Appropriate “Create an incident” button
-- The screen will be pre populated with “Developer Tools” “Azure DevOps”.
-- Choose Pipelines as the category and follow the wizard.
-
-
-If you’re reporting an issue, please include:
-
-- the version of the pipe
-- relevant logs and error messages
-- steps to reproduce
+This sample is provided "as is" and is not supported. Likewise, no commitments are made as to its longevity or maintenance. To discuss this sample with other users, please visit the Azure DevOps Services section of the Microsoft Developer Community: https://developercommunity.visualstudio.com/spaces/21/index.html.
